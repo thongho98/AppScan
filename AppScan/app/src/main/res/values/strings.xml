@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Scanner App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="history">Lịch sử</string>
+    <string name="create">Tạo QR</string>
+    <string name="scan">Scan</string>
+    <string name="favorite">Yêu thích</string>
+    <string name="setting">Cài đặt</string>
+    <string name="turn_on_flashlight">Turn on Flashlight</string>
+    <string name="turn_off_flashlight">Turn off Flashlight</string>
+    <string name="category">Category</string>
+    <string name="content">Content</string>
+    <string name="date">Date</string>
+    <string name="like">Like</string>
+    <string name="save">Lưu</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="eng">English</string>
+    <string name="vie">Việt Nam</string>
+    <string name="font">Font chữ</string>
+    <string name="def">Mặc định</string>
+    <string name="bread">Bread</string>
+    <string name="noidung">Nội dung :</string>
+    <string name="input">Hãy nhập url hoặc nội dung của bạn</string>
+    <string name="generate">Tạo QR code</string>
+    <string name="download">Tải ảnh QR code</string>
+</resources>

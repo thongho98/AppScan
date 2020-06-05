@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_scan">
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="own.thongho.appscan.ui.history.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_create_qr"
+        android:name="own.thongho.appscan.ui.createqr.CreateQRFragment"
+        android:label="@string/create"
+        tools:layout="@layout/fragment_create_qr" />
+
+    <fragment
+        android:id="@+id/navigation_scan"
+        android:name="own.thongho.appscan.ui.scan.ScanFragment"
+        android:label="@string/scan"
+        tools:layout="@layout/fragment_scan" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="own.thongho.appscan.ui.favorite.FavoriteFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="own.thongho.appscan.ui.setting.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

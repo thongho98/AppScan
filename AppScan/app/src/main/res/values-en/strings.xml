@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Scanner App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="history">History</string>
+    <string name="create">Create QR</string>
+    <string name="scan">Scan</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="turn_on_flashlight">Turn on Flashlight</string>
+    <string name="turn_off_flashlight">Turn off Flashlight</string>
+    <string name="category">Category</string>
+    <string name="content">Content</string>
+    <string name="date">Date</string>
+    <string name="like">Like</string>
+    <string name="save">Save</string>
+    <string name="language">Language</string>
+    <string name="eng">English</string>
+    <string name="vie">Vietnamese</string>
+    <string name="font">Font</string>
+    <string name="def">Default</string>
+    <string name="bread">Bread</string>
+    <string name="noidung">Content :</string>
+    <string name="input">Please enter your url or content</string>
+    <string name="generate">Create QR code</string>
+    <string name="download">Download Image QR code</string>
+</resources>
