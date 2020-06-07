@@ -67,7 +67,7 @@
         <EditText
             android:id="@+id/editContent"
             android:layout_width="match_parent"
-            android:layout_height="203dp"
+            android:layout_height="319dp"
             android:layout_marginBottom="20dp"
             android:ems="10"
             android:gravity="top"
@@ -87,6 +87,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/red"
-            android:text="THOÁT" />
+            android:text="@string/quitApp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

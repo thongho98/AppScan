@@ -25,4 +25,5 @@
     <string name="input">Hãy nhập url hoặc nội dung của bạn</string>
     <string name="generate">Tạo QR code</string>
     <string name="download">Tải ảnh QR code</string>
+    <string name="quitApp">Thoát</string>
 </resources>

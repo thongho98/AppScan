@@ -25,4 +25,5 @@
     <string name="input">Please enter your url or content</string>
     <string name="generate">Create QR code</string>
     <string name="download">Download Image QR code</string>
+    <string name="quitApp">QUIT</string>
 </resources>

@@ -51,7 +51,7 @@
             <ImageView
                 android:id="@+id/imgViewQRCode"
                 android:layout_width="match_parent"
-                android:layout_height="318dp"
+                android:layout_height="443dp"
                 android:layout_margin="5dp"
                 android:src="@drawable/img_icon" />
 

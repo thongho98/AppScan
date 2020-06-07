@@ -60,48 +60,4 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
-/*
-    private void onChangeLanguage(Locale locale){
-        DisplayMetrics displayMetrics = getBaseContext().getResources().getDisplayMetrics();
-        Configuration configuration = new Configuration();
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1){
-            configuration.setLocale(locale);
-        }
-        else{
-            configuration.locale = locale;
-        }
-        getBaseContext().getResources().updateConfiguration(configuration,displayMetrics);
-
-        Intent refresh = new Intent(MainActivity.this, MainActivity.class);
-        startActivity(refresh);
-        finish();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.menu_lang_vi:{
-                mMyLocale = new Locale("vi","VN");
-                break;
-            }
-            case R.id.menu_lang_en:{
-                mMyLocale = new Locale("en","EN");
-                break;
-            }
-            case R.id.menu_lang_de:{
-                mMyLocale = new Locale("de","DE");
-                break;
-            }
-        }
-        onChangeLanguage(mMyLocale);
-        return super.onOptionsItemSelected(item);
-    }
-
- */
 }
